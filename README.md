@@ -15,7 +15,9 @@ The tool is interactive, allowing users to specify the vulnerability they are lo
 - **Interactive Workflow**: Asks users for input, ensuring an easy-to-use experience.
 
 - STEPS
-python3 recon_tool.py
+
+- 
+python3 my_recon.py
 Enter the path to your .txt file containing URLs: urls.txt
 Available parameter types to search for: ssrf, sql, xss, lfi, or, rce, idor
 Enter the parameter type you want to search for (e.g., 'lfi', 'xss', 'sql'): lfi
